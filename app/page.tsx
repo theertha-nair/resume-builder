@@ -83,20 +83,6 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="no-print mt-4 pb-6 px-4 flex flex-col items-center gap-4">
-        {/* Brand Button */}
-        <a
-          id="digital-heroes-btn"
-          href="https://digitalheroesco.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hero-brand-btn"
-          aria-label="Visit Digital Heroes Co"
-        >
-          <Sparkles className="w-4 h-4" />
-          <span>Built for Digital Heroes</span>
-          <ExternalLink className="w-4 h-4" />
-        </a>
-
         {/* Author info */}
         <div className="text-center">
           <p className="text-white/50 text-sm">
